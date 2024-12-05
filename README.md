@@ -55,5 +55,39 @@ To run this project, you need the following libraries:
 - `yfinance`
 - `matplotlib`
 - `mplfinance`
+  
+## Limitations
+
+While this toolkit is useful for analyzing stock market trends, it has the following limitations:
+
+1. **Real-Time Data:**  
+   The toolkit does not provide real-time stock data. It relies on Yahoo Finance, which may have delays in updating prices.
+
+2. **Advanced Financial Modeling:**  
+   The toolkit does not support complex financial models such as options pricing, risk-adjusted returns, or portfolio optimization.
+
+3. **External Dependencies:**  
+   The functionality heavily depends on the `yfinance` library. If there are changes or disruptions to the Yahoo Finance API, some features may not work as expected.
+
+4. **Limited Market Scope:**  
+   It focuses primarily on stock market data. Analysis of other asset classes (e.g., bonds, commodities, cryptocurrencies) is not supported.
+   
+6. **Single-Factor Analysis:**  
+   The toolkit does not consider external factors like market news, economic indicators, or sector performance that could impact stock prices.
+
+7. **Data Quality:**  
+   The accuracy of the analysis depends on the quality and completeness of the data fetched from Yahoo Finance.
+
+8. **Scalability:**  
+   For large-scale data (e.g., hundreds of stocks over decades), performance may degrade due to memory constraints and lack of distributed computing support.
+
+9. **Visualization Customization:**  
+   While basic visualizations are supported, advanced customization options for plots are limited.
+
+10. **Statistical Depth:**  
+   The metrics provided are basic (mean, standard deviation, coefficient of variation). Advanced statistical analysis like regression, ARIMA modeling, or hypothesis testing is not included.
+
+
+
 
 
